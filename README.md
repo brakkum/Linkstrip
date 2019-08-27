@@ -4,7 +4,7 @@
 
 #### Install
 
-`$ npm install linkstrip`
+`$ npm i linkstrip`
 
 #### Usage
 
