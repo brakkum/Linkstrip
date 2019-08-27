@@ -1,0 +1,28 @@
+{
+  "name": "linkstrip",
+  "version": "1.0.0",
+  "description": "Create shortened links for urls",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc"
+  },
+  "keywords": [
+    "link",
+    "url",
+    "linkstrip"
+  ],
+  "author": "Daniel Brakke",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^24.0.18",
+    "awesome-typescript-loader": "^5.2.1",
+    "jest": "^24.9.0",
+    "source-map-loader": "^0.2.4",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.5.3"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
