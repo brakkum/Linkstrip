@@ -24,6 +24,6 @@ There are three methods on the Linkstrip class:
 
 `Linkstrip.setUrl(:string)` sets the url for the link to be generated.
 
-`Linkstrip.setSlug(:string)` sets a custom slug for the linkst.rip url.
+`Linkstrip.setSlug(:string)` sets a custom slug for the linkst.rip url. Slugs must be between 5 and 100 characters, and may only contain a-z, 0-9, -_.~
 
 `Linkstrip.getLinkAsync()` sends the url and slug info to the linkst.rip API, and returns a link if everything is acceptable. If not, an error will be thrown.
